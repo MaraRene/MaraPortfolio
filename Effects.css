@@ -1,0 +1,79 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color:#01011c;
+}
+#myHeader {
+    font-family: Spectral;
+    border-bottom: outset; 
+    border-bottom-color:rgb(49, 174, 139);
+    border-left: inset;
+    border-left-color: aquamarine ;
+    border-width: 3px
+}
+h1, h2, h3, h4, p {
+    color: lightgray
+} 
+p {
+    font-size: 120%;
+}
+h1, h2 {
+    font-family: "Roboto", thin;
+}
+#myHeader {
+    color:lightgray;
+    font-family: "Spectral"
+}
+#bio { 
+    margin-right: 250px;
+    margin-left: 250px;
+    line-height: 150%;
+    position: relative;
+}
+#about { 
+    color:aquamarine
+}
+a {
+    color: lightgray;
+    text-decoration: none;
+}    
+img {
+    max-width: 290px;
+    height: auto; 
+    filter: grayscale(30%);
+    filter: brightness(85%);
+    filter: saturate(120%);
+    filter:sepia(30%);
+    position:relative;
+
+}
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    float:inherit;
+    height: auto; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#box { 
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+#box1:hover, #box2:hover, #box3:hover, #box4:hover, #box5:hover {
+    transform: translateY(-100px);
+}
+#box1, #box2, #box3, #box4, #box5 {
+    transition: 250ms;
+}
+.Head {
+    transform:rotateZ(-5deg);
+    background-color: darkslateblue;
+
+}
